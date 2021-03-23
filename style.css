@@ -1,0 +1,18 @@
+.iframe-div {
+    display: flex;
+}
+
+body {
+    background-color: aqua;
+}
+
+.iframe-content {
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: transform 1sec;
+}
+
+.iframe-content:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
